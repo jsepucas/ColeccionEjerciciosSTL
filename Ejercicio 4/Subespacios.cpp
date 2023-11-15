@@ -11,3 +11,7 @@ namespace Ciencia {
         }
     }
 }
+int main() {
+    double masa;
+    std::cout << "Introduce la masa en kilogramos: ";
+    std::cin >> masa;
