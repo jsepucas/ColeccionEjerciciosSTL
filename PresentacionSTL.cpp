@@ -29,6 +29,12 @@ int main() {
         cout << par.first << " -> " << par.second << endl;
     }
 
+    set<int> Set;
+
+    Set.insert(10);
+    Set.insert(20);
+    Set.insert(30);
+
 
 
 
