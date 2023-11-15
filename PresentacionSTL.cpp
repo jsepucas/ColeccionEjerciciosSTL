@@ -16,6 +16,11 @@ int main() {
     for(int elemento : vector) {
         cout << elemento << endl;
     }
+    cout << endl;
+
+    std::map<int, string> mapa;
+
+
 
 }
 
