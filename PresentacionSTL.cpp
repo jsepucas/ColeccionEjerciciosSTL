@@ -24,6 +24,11 @@ int main() {
     mapa[2] = "dos";
     mapa[3] = "tres";
 
+    cout << "Elementos del mapa: " << endl;
+    for(const auto& par : mapa) {
+        cout << par.first << " -> " << par.second << endl;
+    }
+
 
 
 
