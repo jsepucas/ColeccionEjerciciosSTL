@@ -20,6 +20,12 @@ int main() {
 
     std::map<int, string> mapa;
 
+    mapa[1] = "uno";
+    mapa[2] = "dos";
+    mapa[3] = "tres";
+
+
+
 
 
 }
