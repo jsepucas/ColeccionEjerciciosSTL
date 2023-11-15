@@ -20,5 +20,7 @@ int main() {
     cout << "La solucion de la suma es: " << solucion_suma << endl;
     cout << "La solucion de la resta es: " << solucion_resta << endl;
 
+    return 0;
+
 
 }
