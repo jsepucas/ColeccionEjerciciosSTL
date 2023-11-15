@@ -9,3 +9,8 @@ namespace matematicas {
         return a - b;
     }
 }
+
+int main() {
+    int numero1 = 20;
+    int numero2 = 5;
+}
