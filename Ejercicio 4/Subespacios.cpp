@@ -15,3 +15,10 @@ int main() {
     double masa;
     std::cout << "Introduce la masa en kilogramos: ";
     std::cin >> masa;
+
+    double energia = Ciencia::Fisica::energia(masa);
+
+    std::cout << "La energía equivalente es: " << energia << " julios" << std::endl;
+
+    return 0;
+}
