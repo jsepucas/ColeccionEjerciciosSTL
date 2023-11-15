@@ -1,5 +1,5 @@
 namespace Geometria {
-    double Area_rectangulo(double largo, double ancho) {
+    double area_rectangulo(double largo, double ancho) {
         return largo * ancho;
     }
 }

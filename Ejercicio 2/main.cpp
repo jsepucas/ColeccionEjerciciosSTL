@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 #include "circulo.cpp"
 #include "triangulo.cpp"
 #include "hexagono.cpp"
@@ -14,15 +15,17 @@ int main() {
     double largoRectangulo = 10;
     double anchoRectangulo = 5;
 
-    double areaCirculo = Geometria::Area_circulo(radioCirculo);
-    double areaTriangulo = Geometria::Area_triangulo(baseTriangulo, alturaTriangulo);
-    double areaHexagono = Geometria::Area_hexagono(ladoHexagono);
-    double areaCuadrado = Geometria::Area_cuadrado(ladoCuadrado);
-    double areaRectangulo = Geometria::Area_rectangulo(largoRectangulo, anchoRectangulo);
+    double areaCirculo = Geometria::area_circulo(radioCirculo);
+    double areaTriangulo = Geometria::area_triangulo(baseTriangulo, alturaTriangulo);
+    double areaHexagono = Geometria::area_hexagono(ladoHexagono);
+    double areaCuadrado = Geometria::area_cuadrado(ladoCuadrado);
+    double areaRectangulo = Geometria::area_rectangulo(largoRectangulo, anchoRectangulo);
 
-    std::cout << "Área del círculo: " << areaCirculo << std::endl;
-    std::cout << "Área del triángulo: " << areaTriangulo << std::endl;
-    std::cout << "Área del hexágono: " << areaHexagono << std::endl;
-    std::cout << "Área del cuadrado: " << areaCuadrado << std::endl;
-    std::cout << "Área del rectángulo: " << areaRectangulo << std::endl;
+    std::cout << "Area del circulo: " << areaCirculo << std::endl;
+    std::cout << "Area del triangulo: " << areaTriangulo << std::endl;
+    std::cout << "Area del hexagono: " << areaHexagono << std::endl;
+    std::cout << "Area del cuadrado: " << areaCuadrado << std::endl;
+    std::cout << "Area del rectangulo: " << areaRectangulo << std::endl;
+
+    return 0;
 }
