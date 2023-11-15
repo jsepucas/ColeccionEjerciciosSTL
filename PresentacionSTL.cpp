@@ -12,5 +12,10 @@ int main() {
     vector.push_back(20);
     vector.push_back(30);
 
+    cout << "Elementos del vector: " << endl;
+    for(int elemento : vector) {
+        cout << elemento << endl;
+    }
+
 }
 
