@@ -19,4 +19,10 @@ int main() {
     double areaHexagono = Geometria::Area_hexagono(ladoHexagono);
     double areaCuadrado = Geometria::Area_cuadrado(ladoCuadrado);
     double areaRectangulo = Geometria::Area_rectangulo(largoRectangulo, anchoRectangulo);
+
+    std::cout << "Área del círculo: " << areaCirculo << std::endl;
+    std::cout << "Área del triángulo: " << areaTriangulo << std::endl;
+    std::cout << "Área del hexágono: " << areaHexagono << std::endl;
+    std::cout << "Área del cuadrado: " << areaCuadrado << std::endl;
+    std::cout << "Área del rectángulo: " << areaRectangulo << std::endl;
 }
