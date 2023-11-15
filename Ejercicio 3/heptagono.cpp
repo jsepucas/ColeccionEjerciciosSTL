@@ -13,4 +13,10 @@ namespace Geometria {
             return (perimetro * apotema) / 2;
         }
 
+        double calcularPerimetro() {
+            return 7 * lado;
+            }
+        };
+}
+
 
